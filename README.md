@@ -11,5 +11,5 @@ Example line: IPsf = open("/var/www/site/IPs", "w+")
 Example Cron Line (crontab -e): 0 0 * * * python3 /home/foobar/SSHAttackFinder.py
 However the person running this file must have access to the directory!
 
-This script only runs on Linux. It may not work out-of-the-box on some distros, that don't use /var/log/auth.log, however change the "auth" line to the applicable logfile, and it should run.
-Here's a realtime list (updated daily) of the attackers hitting my server: toma678.com/IPs
+This script only runs on Linux. It may not work out-of-the-box on some distros, that don't use /var/log/auth.log, however change the "auth" line to the applicable logfile, and it should run.                                                  
+Here's a realtime list (updated daily) of the attackers hitting my server: <href=toma678.com/IPs>
