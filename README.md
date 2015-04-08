@@ -7,7 +7,7 @@ Simply grab the file from here, place it in a  directory of your choosing, and e
 # Example Setups
 The script automatically saves the "IPs" file to the current working directory (os.cwd()), however why not edit this line, and make the script output to your website's directory? Add the script to a cronjob, and you have a dynamically updating list of possible attackers!
 
-Example line: IPsf = open("/var/www/site/IPs", "w+")
+Example line: IPsf = open("/var/www/site/IPs", "w+")                                                                    
 Example Cron Line (crontab -e): 0 0 * * * python3 /home/foobar/SSHAttackFinder.py
 However the person running this file must have access to the directory!
 
